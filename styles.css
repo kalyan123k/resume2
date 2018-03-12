@@ -4,11 +4,17 @@
 }
 .profile{
 	width: 30%;
+	background-color: lightblue;
+	margin: 1%;
+	padding:2%;
 }
 .content{
 	width: 70%;
+	padding: 2%;
+	margin: 1%;
+	background-color: lightgreen;
 }
 body{
 	background: #ddd;
-	
+
 }
