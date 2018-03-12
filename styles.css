@@ -1,0 +1,14 @@
+.flex-main{
+	display: flex;
+	flex-direction: row;
+}
+.profile{
+	width: 30%;
+}
+.content{
+	width: 70%;
+}
+body{
+	background: #ddd;
+	
+}
