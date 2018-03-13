@@ -1,20 +1,47 @@
+body{
+    background-color: #ddd;
+}
 .flex-main{
-	display: flex;
-	flex-direction: row;
+     display: flex;
+   flex-direction: row;
 }
 .profile{
-	width: 30%;
-	background-color: lightblue;
-	margin: 1%;
-	padding:2%;
+    width: 30%;
+    background-color: lightblue;
+    margin: 1%;
+    padding:2%;
+    border:1px solid blue;
+    border-radius: 5px;
 }
 .content{
-	width: 70%;
-	padding: 2%;
-	margin: 1%;
-	background-color: lightgreen;
+    width: 70%;
+    background-color: lightgreen;
+    margin:1%;
+    padding:2%;
 }
-body{
-	background: #ddd;
-
+@media only screen and (min-width: 320px) and (max-width: 480px){
+ 
+ body{
+    background-color: #ddd;
 }
+.flex-main{
+     display: flex;
+   flex-direction: column;
+}
+.profile{
+    width: 100%;
+    background-color: lightblue;
+    margin: 1%;
+    padding:2%;
+    border:1px solid blue;
+    border-radius: 5px;
+}
+.content{
+    width: 100%;
+    background-color: lightgreen;
+    margin:1%;
+    padding:2%;
+}
+}
+@media only screen and (min-width: 720px) and (max-width: 1080px){
+ }
